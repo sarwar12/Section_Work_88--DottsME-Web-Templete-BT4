@@ -1,0 +1,535 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: ;
+	font-size: 15px;
+	color: #333333;
+	line-height: 1.8;
+	
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	/*font-weight: 700;*/
+}
+a:hover{
+	text-decoration: none;
+}
+.space-90{height: 90px;}
+/* Main CSS Stop */
+@font-face{
+	font-family: anton;
+	src:url(../fonts/Anton-Regular.ttf)
+}
+/* === Header Section Start === */
+.header-top-area {
+  background-color: #0b0b0b;
+  padding: 13px 0;
+}
+.header-top-area, .header-top-area a {
+  color: #f5f3f3;
+}
+.header-top-area i {
+  color: #fc721e;
+  padding-right: 6px;
+}
+.social-links a {
+  display: inline-block;
+  height: 33px;
+  width: 33px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 33px;
+}
+.social-links i {
+  padding-right: 0;
+  color: #fff;
+}
+.social-links {
+  display: inline-block;
+  padding-left: 25px;
+}
+.social-links a:hover {
+  background: #fc721e;
+  border-color: #fc721e;
+}
+.header-top-area i.fas.fa-phone {
+  padding-left: 30px;
+}
+.site-logo {
+  display: inline-block;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: 1px solid;
+  padding: 15px 20px;
+  font-weight: 500;
+  margin-bottom: 0;
+  font-family: anton;
+}
+.site-logo span {
+	color: orange;
+	font-weight: 400;
+}
+.mainmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 5px 0;
+}
+.mainmenu ul li {
+  display: inline-block;
+}
+.mainmenu ul li a {
+  display: block;
+  color: #999;
+  padding: 12px 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+}
+.mainmenu ul li:hover > a{
+	border:1px solid #fc721e;
+}
+.header-bottom-area {
+  padding: 18px 0;
+}
+/* === Header Section Stop === */
+/* === Slider Section Start === */
+.slide-bg-1{
+	background-image: url(../img/slider-bg-1.jpg);
+}
+.slide-bg-2{
+	background-image: url(../img/slider-bg-2.jpg);
+}
+.slide-bg-3{
+	background-image: url(../img/slider-bg-3.jpg);
+}
+.single-slider-item {
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 700px;
+	position: relative;
+	color: #fff;
+	font-size: 16px;
+	line-height: 2;
+	z-index: 1;
+}
+.single-slider-item::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #050505;
+  content: "";
+  z-index: -1;
+  opacity: .5;
+}
+.single-slider-item .d-table-cell {
+  vertical-align: middle;
+}
+.single-slider-item h2 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+.boxed-btn {
+  display: inline-block;
+  background-color: #fc721e;
+  border: 1px solid #fc721e;
+  color: #fff;
+  padding: 8px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.boxed-btn.bordered-btn {
+  background-color: transparent;
+  border-color: #fff;
+}
+.slide-buttons {
+  margin-top: 30px;
+}
+.slide-buttons a {
+  margin-right: 15px;
+}
+.slider-area {
+	margin-bottom: -35px;
+}
+/* Owl Carousel Code */
+.slider-area .owl-dots button {
+  height: 25px;
+  width: 2px;
+  background: #fff;
+  display: inline-block;
+  margin-right: 8px;
+}
+.slider-area .owl-dots {
+  position: relative;
+  left: 0;
+  top: -80px;
+  width: 100%;
+  width: 1110px;
+  margin: 0 auto;
+}
+.slider-area .owl-dots button.active {
+  height: 30px;
+  background-color: #fc721e;
+}
+/* === Slider Section Stop === */
+/* === Service Section Stop === */
+.service-bg-1{
+	background-image: url(../img/section-bg-1.jpg);
+}
+.service-bg-2{
+	background-image: url(../img/section-bg-2.jpg);
+}
+.service-bg-3{
+	background-image: url(../img/section-bg-3.jpg);
+}
+.slider-area {
+  margin-bottom: -35px;
+}
+.service-box-bg {
+  background-color: #ddd;
+  height: 205px;
+  background-size: cover;
+  background-position: center;
+}
+.service-box-title {
+  position: absolute;
+  top: 180px;
+  width: 100%;
+}
+.paras {
+	font-size: 16px;
+	text-transform: capitalize;
+	font-weight: 600;
+}
+.single-service-box {
+  position: relative;
+  text-align: center;
+  transition: .3s;
+}
+.service-box-content {
+  border: 1px solid #d1cfcf;
+  padding: 10px;
+  padding-top: 50px;
+}
+.service-box-title h2 {
+  width: 80%;
+  color: #fff;
+  background-color: #fc721e;
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 15px;
+}
+.service-btn {
+  color: #333;
+}
+.service-btn i.fas {
+  padding-left: 5px;
+}
+.single-service-box:hover {
+  box-shadow: 0 0 10px #ccc;
+}
+.section-padding {
+  padding: 90px 0;
+}
+.section-padding.padding-bottom-0 {
+  padding-bottom: 0;
+}
+/* === Service Section Stop === */
+/* === About Section Start === */
+.section-padding.section-gray {
+  background-color: #f4f4f4;
+}
+.bordered-img {
+  position: relative;
+}
+.bordered-img::before, .bordered-img::after {
+  content: "";
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 5px;
+  height: 70%;
+  background-color: #35180f;
+}
+.bordered-img:after {
+  left: auto;
+  right: 0;
+}
+.about-text {
+  padding: 15px 0;
+}
+.about-text p {
+  text-align: justify;
+}
+/* === About Section Stop === */
+/* === Call To Action Section Start === */
+.cta-area h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.cta-area {
+  background-color: #fc722e;
+  color: #fff;
+  padding: 60px 0;
+}
+.cta-area .boxed-btn {
+  background: #fff;
+  color: #666;
+}
+/* === Call To Action Section Stop === */
+/* === Our Projects Section Start === */
+.project-bg-1{background-image: url(../img/project-bg-1.jpg);}
+.project-bg-2{background-image: url(../img/project-bg-2.jpg);}
+.project-bg-3{background-image: url(../img/project-bg-3.jpg);}
+.project-bg-4{background-image: url(../img/project-bg-4.jpg);}
+.project-bg {
+  background-color: #ddd;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 240px;
+  z-index: 2;
+}
+.single-project-item {
+  position: relative;
+  padding-left: 260px;
+  margin-bottom: 30px;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+.single-project-item h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.inline-btn {
+  font-weight: 700;
+  color: #333;
+}
+.inline-btn i.fas {
+  padding-left: 5px;
+}
+.project-bg:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #333;
+  z-index: -1;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+.single-project-item:hover .project-bg::after {
+  opacity: .5;
+  visibility: visible;
+}
+.single-project-item:hover h3, .single-project-item:hover .inline-btn {
+  color: #fc721e;
+}
+/* === Our Projects Section Stop === */
+/* === Team Member Section Start === */
+.team-1{background-image: url(../img/team-member-1.jpg);}
+.team-2{background-image: url(../img/team-member-2.jpg);}
+.team-3{background-image: url(../img/team-member-3.jpg);}
+.team-4{background-image: url(../img/team-member-4.jpg);}
+.padding-top-0 {
+  padding-top: 0;
+}
+.team-thumb {
+  height: 305px;
+  background-color: #ddd;
+  background-size: cover;
+  background-position: center top;
+  margin-bottom: 5px;
+  position: relative;
+  z-index: 2;
+}
+.team-info {
+  border: 1px solid #dcdbdb;
+  padding: 20px;
+  text-align: center;
+}
+.team-info h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.social-link a {
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  border: 1px solid;
+  color: #333;
+  line-height: 33px;
+  margin: 0 2px;
+}
+.team-thumb:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #fc721e;
+  opacity: 0;
+  visibility: hidden;
+  z-index: -1;
+  transition: .3s;
+}
+.single-team-member:hover .team-thumb::after {
+  opacity: .5;
+  visibility: visible;
+}
+.social-link a:hover {
+	color: #fc721e;
+}
+/* === Team Member Section Stop === */
+/* === Brand Partner Section Start === */
+.logo-carousel-area {
+	border-top: 1px solid #d7d5d5;
+	border-bottom: 1px solid #d7d5d5;
+	padding: 50px 0;
+	margin-bottom: 90px;
+}
+.sigle-logo-wrapper {
+  height: 120px;
+  width: 100%;
+}
+.single-logo-item {
+  vertical-align: middle;
+}
+.sigle-logo-wrapper img, .owl-carousel .owl-item .single-logo-wrapper img {
+  max-width: 120px;
+  width: auto;
+  margin: 0 auto;
+  background: ;
+  display: block;
+}
+/* === Brand Partner Section Stop === */
+/* === Footer Section Start === */
+.footer-area {
+	background-color: #000000;
+	padding-top: 50px;
+}
+.footer-area, .footer-area a {
+  color: #8e8c8c;
+}
+.about-texts {
+  padding-right: 40px;
+}
+.widget-title {
+  position: relative;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  margin-bottom: 36px;
+}
+.widget-title:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 50px;
+  background-color: #555;
+}
+.about-texts p {
+  text-align: justify;
+}
+.footer-area .footer-logo {
+  text-transform: uppercase;
+  border: 1px solid #666;
+  color: #fff;
+  padding: 8px 30px;
+  display: inline-block;
+  margin: 10px 0;
+}
+.about-texts .social-link a i {
+  text-align: center;
+  display: block;
+  line-height: 33px;
+}
+.about-texts .social-link {
+  margin-top: 15px;
+}
+.footer-area ul li {
+  padding-left: 20px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.single-blog-post h4 {
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+.single-blog-post h4 span {
+  display: block;
+  margin-top: 8px;
+  font-size: 12px;
+  color: #ddd;
+  font-weight: 600;
+}
+.address-info p {
+  font-size: 12px;
+  margin: 15px 0;
+}
+.address-info {
+  margin-bottom: 50px;
+}
+.address-info p i {
+  color: orange;
+  display: inline-block;
+  padding-right: 5px;
+}
+    /* Contact Form */
+.email-subscribes {
+  background-color: #222;
+}
+.email-subscribes input, .email-subscribes button {
+  background: none;
+  border: none;
+  padding: 10px;
+  color: #fff;
+}
+.email-subscribes button {
+  float: right;
+  width: 20%;
+}
+.email-subscribes input {
+  width: 79%;
+}
+input:focus, a:focus, button:focus, text-area:focus {
+  outline: none;
+}
+/* Copyright Area */
+.copyright-text p {
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  font-weight: 700;
+  color: orange;
+}
+.copyright-text {
+  border-top: 1px solid #333;
+  margin-top: 20px;
+}
+/* === Footer Section Stop === */

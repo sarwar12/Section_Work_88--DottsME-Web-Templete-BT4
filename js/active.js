@@ -1,0 +1,19 @@
+$(document).ready(function($){
+	//Slider_Owl_Carousel_JS_Code
+	$(".slider-area").owlCarousel({
+		items:1,
+		loop:true,
+		nav:false,
+		dots:true,
+		autoplay:false
+	});
+	//logo_Carousel_JS_Code
+	$(".logo-carousel").owlCarousel({
+		items:5,
+		margin: 30,
+		loop:true,
+		nav:false,
+		dots:true,
+		autoplay:false
+	});
+});
